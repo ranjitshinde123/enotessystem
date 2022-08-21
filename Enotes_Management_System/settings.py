@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-h=#p#1$e9vnd8_ke*nzr+=0(o7b49t2=3yf@tr#(f-7tyn%u5-
 DEBUG = False
 
 ALLOWED_HOSTS = ['enotessystem.herokuapp.com','localhost']
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -121,12 +122,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
-import os
-
-STATICFLES_DIR=[
-    os.path.join(BASE_DIR,"static")
-]
+# STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
+# import os
+#
+# STATICFLES_DIR=[
+#     os.path.join(BASE_DIR,"static")
+# ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
